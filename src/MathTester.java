@@ -1,7 +1,26 @@
 public class MathTester {
 
     public static void main(String[] args) {
-        String firstWord;
+        int firstNumber = 10;
+        int secondNumber = 20;
+        if(firstNumber>secondNumber){
+            System.out.println(firstNumber +" is less");
+
+        }
+        else if(firstNumber<0) {
+            System.out.println(secondNumber + " is greater than 0");
+        }
+        else{
+            System.out.println("I don't know what you want");
+        }
+
+
+
+
+
+
+
+      /*  String firstWord;
         String secondWord;
         int firstNumber,secondNumber, total;
 
@@ -13,9 +32,9 @@ public class MathTester {
 
         System.out.println(total);
         total = total + 10;
-        System.out.println(total);
+        System.out.println(total);*/
 
-        
+
 
         /*System.out.println(firstWord + secondWord);
         System.out.println(firstWord+(firstNumber+secondNumber));
